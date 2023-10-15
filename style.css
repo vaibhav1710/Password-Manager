@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 435px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Add more specific styles for the elements inside the navbar as needed */
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 12px 3px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0 23px;
+  font-weight: 800;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  margin: 0 23px;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin: 0 13px;
+  cursor: pointer;
+}
+
+ul > li:hover {
+  color: rgb(6, 243, 243);
+}
+
+table,
+td,
+tr,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px 13px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(6, 243, 243);
+}
+
+.container {
+  max-width: 80vw;
+  margin: 23px auto;
+}
+
+.container_a{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    flex:6;
+    padding-bottom: 3%;
+    max-width: 80vw;
+    text-align: center;
+    margin: 23px auto;
+}
+.card{
+    flex:4;
+    display: flex;
+    max-width: 40%;
+    margin: 23px auto;
+    justify-content: space-between;
+}
+
+.card img{
+    flex : 4;
+    display: flex;
+    margin : 12px auto;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.card p{
+    flex: 6;
+    display: flex;
+    margin : 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#vaibhav{
+    width:30vw;
+    height: 40vh;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 4vw;
+  margin: 23px 0;
+}
+
+.btn {
+  padding: 8px 17px;
+  background: black;
+  color: white;
+  font-weight: 900;
+  border: 2px solid gray;
+  border-radius: 8px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+
+.btnsm {
+  padding: 8px 17px;
+  background: black;
+  color: white;
+  font-weight: 900;
+  border: 2px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+  position: relative;
+  bottom: 7px;
+  width: 15px;
+  height: 13px;
+}
+
+#alert {
+  display: none;
+}
+
+.footer {
+  background-color: rgb(6, 243, 243);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.ccontainer p{
+  font-family: 'Zilla Slab', serif;
+}
+
+.ccontainer h5{
+  margin-left: 10%;
+  font-family: 'Zilla Slab', serif;
+  line-height: 5;
+}
