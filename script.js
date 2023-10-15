@@ -31,7 +31,7 @@ if(data==null){
      str += `<tr>
           <td>${element.website}</td>
           <td>${element.username}</td>
-          <td>${element.username}</td>
+          <td>${element.password}</td>
           <td><button class="btnsm" onclick="deletePassword('${element.website}')">Delete</button></td>
           </tr>`
     }    
